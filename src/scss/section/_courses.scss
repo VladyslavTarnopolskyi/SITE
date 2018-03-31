@@ -1,0 +1,52 @@
+.courses{
+  padding-bottom: 200px;
+  &.container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    width: 5%;
+    color: #295878;
+  }
+  .carousel-control-prev{
+    .wrap-arr{
+      margin-right: 20px;
+    }
+  }
+  .carousel-control-next{
+    .wrap-arr{
+      margin-left: 20px;
+    }
+  }
+
+  .carousel-control-prev-icon{
+    background-image: url("../img/courses/arrow-left.png");
+  }
+  .carousel-control-next-icon{
+    background-image: url("../img/courses/arrow-right.png");
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 17px;
+    height: 27px;
+  }
+  .wrap-arr{
+    padding: 17px 20px 17px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.25);
+  }
+  h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 82px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+  }
+  .course-list{
+    text-align: center;
+    .course{
+      display: inline-block;
+      margin: 25px 8px;
+    }
+  }
+}

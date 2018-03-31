@@ -1,0 +1,58 @@
+.header{
+  background:
+          linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%),
+          url("../img/header/bg.png") 0 100% no-repeat;
+  background-size: cover;
+  padding-bottom: 497px;
+  .nav{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    background-color: #185f74;
+    .logo{
+      margin-left: auto;
+      margin-right: 0;
+      padding-left: 50px;
+    }
+    .form-block{
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      .left-search-panel{
+        display: flex;
+        .fa-sort-down{
+          padding: 0 10px;
+        }
+      }
+      #search{
+        width: 100%;
+        border: none;
+        padding: 7px;
+      }
+      .fa-search{
+        padding-left: 10px;
+      }
+    }
+    .user-panel{
+      display: flex;
+      padding: 0 20px;
+      margin-left: auto;
+      .notification{
+        position: relative;
+        font-size: 20px;
+        padding: 0 15px;
+        .badge-danger{
+          font-size: 10px;
+          position: absolute;
+          top: 0;
+          right: 4px;
+        }
+      }
+      .user{
+        padding: 0 15px;
+      }
+    }
+  }
+}
